@@ -51,7 +51,7 @@ class BWT901(Serial):
 
 
 if __name__ == "__main__":
-    jy_sensor = BWT901("COM3")
+    jy_sensor = BWT901("COM3") #Please change according to your environment
 
     first_open_date = None
     while True:
